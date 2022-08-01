@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let window = UIWindow()
         window.rootViewController = ContainerViewController()
         window.makeKeyAndVisible()
+        window.overrideUserInterfaceStyle = .light
         self.window = window
         return true
     }
